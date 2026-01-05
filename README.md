@@ -1,6 +1,6 @@
 # Network Traffic Analysis: DNS Connectivity Incident
 
-## 1. Scenario Overview
+## 1. Incident Scenario Overview
 As a cybersecurity analyst for an IT services company, I investigated a connectivity issue reported by several customers. Users were unable to access the website `www.yummyrecipesforme.com`, encountering a "destination port unreachable" error. 
 
 The objective of this analysis was to identify which network protocol was affected and determine why the server was failing to resolve the domain name.
