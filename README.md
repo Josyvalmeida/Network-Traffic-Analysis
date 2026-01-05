@@ -36,6 +36,7 @@ tcpdump -ni any host 203.0.113.2 and (udp port 53 or icmp)
     * The logs confirm three separate attempts to resolve the domain, all resulting in the same ICMP error.
     * The server at `203.0.113.2` is online (as it generates ICMP responses), but it is not accepting traffic on the DNS port.
 * **Suspected Root Cause**: A **DNS service outage** on the server side. The DNS daemon (service) was likely down or misconfigured, causing the host to reject incoming queries on port 53.
+* A Denial of Service (DoS) attack is also a possible cause for the server being unresponsive.
 
 ---
 
